@@ -1,0 +1,13 @@
+{
+    "name": "@repo/tailwind-config",
+    "version": "0.0.0",
+    "private": true,
+    "license": "MIT",
+    "dependencies": {
+        "tailwindcss": "^3.3.6",
+        "tailwindcss-animate": "^1.0.7"
+    },
+    "devDependencies": {
+        "@repo/typescript-config": "*"
+    }
+}
