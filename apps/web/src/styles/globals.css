@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* third-party libraries CSS */
+
+#supportCheckbox:checked ~ div span {
+  @apply opacity-100;
+}
+
+@layer base {
+  body {
+    @apply relative z-1 font-inter text-regular font-normal text-waterloo dark:text-manatee;
+  }
+}
+
+@layer components {
+  .dropdown {
+    @apply -left-7.5 mt-2 hidden min-w-max flex-col gap-4 rounded-md border border-stroke bg-white px-8 py-5 shadow-solid-13 duration-300 ease-in dark:border-strokedark dark:bg-black xl:invisible xl:absolute
+    xl:mt-0 xl:flex xl:w-[250px] xl:translate-y-10 xl:opacity-0
+    xl:before:absolute xl:before:-top-1.5 xl:before:left-10 xl:before:h-3 xl:before:w-3 xl:before:rotate-45 xl:before:border-l xl:before:border-t xl:before:border-stroke xl:before:bg-white xl:group-hover:visible xl:group-hover:translate-y-6.5 
+    xl:group-hover:opacity-100 xl:dark:before:border-strokedark xl:dark:before:bg-black;
+  }
+}
+
+@media (max-width: 1280px) {
+  .navbar {
+    @apply max-h-[400px] overflow-y-scroll;
+  }
+}
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .img-white {
+    filter: invert(0%) sepia(96%) saturate(15%) hue-rotate(249deg)
+      brightness(100%) contrast(105%);
+  }
+}
+
+pre {
+  @apply relative mb-2 rounded-lg bg-strokedark px-4 py-2;
+}
+.prism-copy-button {
+  @apply absolute right-2 top-2 h-[26px] rounded bg-white px-4 text-primary;
+}
+
+.active-tab {
+  @apply bg-stroke text-black dark:bg-blackho dark:text-white;
+}
