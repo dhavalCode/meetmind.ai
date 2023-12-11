@@ -1,7 +1,7 @@
 import { useTheme } from "next-themes";
 import Image from "next/image";
-import IconMoon from "@/assets/icon-moon.svg";
-import IconSun from "@/assets/icon-sun.svg";
+import IconMoon from "@/assets/icon/icon-moon.svg";
+import IconSun from "@/assets/icon/icon-sun.svg";
 
 function ThemeToggler(): JSX.Element {
   const { theme, setTheme } = useTheme();

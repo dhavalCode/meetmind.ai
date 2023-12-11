@@ -4,8 +4,8 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import ThemeToggler from "./theme-toggler";
-import logoLight from "@/assets/logo-light.svg";
-import logoDark from "@/assets/logo-dark.svg";
+import logoLight from "@/assets/logo/logo-light.svg";
+import logoDark from "@/assets/logo/logo-dark.svg";
 
 function Header(): JSX.Element {
   const [navigationOpen, setNavigationOpen] = useState(false);
