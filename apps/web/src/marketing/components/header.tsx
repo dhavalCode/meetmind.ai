@@ -36,7 +36,7 @@ function Header(): JSX.Element {
     >
       <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
         <div className="flex w-full items-center justify-between xl:w-1/4">
-          <a href="/">
+          <Link href="/">
             <Image
               alt="logo"
               className="hidden w-full dark:block"
@@ -51,7 +51,7 @@ function Header(): JSX.Element {
               src={logoLight}
               width={119.03}
             />
-          </a>
+          </Link>
 
           {/* <!-- Hamburger Toggle BTN --> */}
           <button
@@ -139,14 +139,14 @@ function Header(): JSX.Element {
 
             <Link
               className="text-regular font-medium text-waterloo hover:text-primary"
-              href="/auth/signin"
+              href="/login"
             >
               Login
             </Link>
 
             <Link
               className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
-              href="/auth/signup"
+              href="/signup"
             >
               Sign up
             </Link>
