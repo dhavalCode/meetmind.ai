@@ -1,39 +1,79 @@
-# Turborepo kitchen sink starter
+## MeetMind.ai - Automatically Record and Transcribe Meetings
 
-This is an official starter Turborepo with multiple meta-frameworks all working in harmony and sharing packages.
+---
 
-This example also shows how to use [Workspace Configurations](https://turbo.build/repo/docs/core-concepts/monorepos/configuring-workspaces).
+Welcome to a new era of meeting mastery with MeetMind.ai! Our platform, driven by advanced AI, revolutionizes the way you conduct and manage meetings. Seamlessly record, transcribe, and analyze discussions, empowering you with unparalleled efficiency and insights.
 
-## Using this example
+## Experience the Power of AI in Meetings
 
-Run the following command:
+####  [meetmind.ai.dhavalcode.com](https://meetmind.ai.dhavalcode.com) 🚀 
 
-```sh
-npx create-turbo@latest -e kitchen-sink
+MeetMind.ai effortlessly captures and transcribes discussions across various platforms, ensuring precision and completeness in documentation. Our AI technology extracts invaluable insights, enabling swift access to pivotal information within your meetings.
+
+## Key Features of MeetMind.ai
+
+- **Effortless Meeting Recording and Transcription**: Capture and transcribe meetings seamlessly, ensuring every detail is meticulously documented for future reference.
+  
+- **AI-Driven Conversation Analysis**: Leverage AI-driven analytics to track metrics, speaker sentiments, and crucial discussion points, empowering you with deeper insights for better decision-making.
+  
+- **Enhanced Collaboration and Analysis Tools**: Foster seamless collaboration through comments, reactions, and soundbites. Monitor sentiments, speaker contributions, and tailor insights for heightened productivity.
+  
+- **Intelligent Search and Insights Generation**: Efficiently search and retrieve pivotal discussion points, action items, and AI-generated insights, ensuring rapid access to vital information.
+  
+- **Real-time Knowledge Base and Privacy Controls**: Establish a dynamic knowledge base, categorize meetings by department, and customize privacy controls for enhanced data security.
+---
+
+## Built with Cutting-Edge Technologies 🔥
+
+MeetMind.ai is powered by a robust tech stack and organized in a Mono Repo style for seamless development:
+
+- **Turbo Repo**
+- **Generative AI**
+- **Next.js**
+- **Typescript**
+- **LangChain JS**
+- **Pinecone Vector DB**
+- **Upstash Redis**
+- **Replicate**
+- **Stripe**
+- **Next Auth**
+- **Social Logins (Github & Google)**
+- **Prisma**
+- **PostgreSQL**
+- **Shadcn UI**
+- **Tailwind CSS**
+- **Zod Validation Schema**
+- **React Hook Form**
+- **Cloudinary**
+
+## Getting Started
+
+To dive into MeetMind.ai and explore its capabilities:
+
+```bash
+# Clone this repository
+git clone https://github.com/dhavalCode/meetmind.ai.git
+
+# Navigate to the repository
+cd meetmind.ai
+
+# Linux / Windows Environment Setup
+cp .env.example .env # Linux
+copy .env.example .env # Windows
+
+# Install required dependencies
+npm install
+
+# Start a local development server
+npm run dev
 ```
 
-## What's inside?
+## For the Future
 
-This Turborepo includes the following packages and apps:
+If you want to add more, Please don't hesitate to open a [pull request](https://github.com/dhavalCode/meetmind.ai/pulls).
 
-### Apps and Packages
+## 👋 Get in Touch
 
-- `api`: an [Express](https://expressjs.com/) server
-- `storefront`: a [Next.js](https://nextjs.org/) app
-- `admin`: a [Vite](https://vitejs.dev/) single page app
-- `blog`: a [Remix](https://remix.run/) blog
-- `@repo/logger`: isomorphic logger (a small wrapper around console.log)
-- `@repo/ui`: a dummy React UI library (which contains a single `<CounterButton>` component)
-- `scripts`: Jest and ESLint configurations
-- `@repo/typescript-config`: tsconfig.json's used throughout the monorepo
+[![Twitter Follow](https://img.shields.io/twitter/follow/dhavalcode?style=social)](https://twitter.com/dhavalCode)
 
-Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Jest](https://jestjs.io) test runner for all things JavaScript
-- [Prettier](https://prettier.io) for code formatting
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhavalcode)
