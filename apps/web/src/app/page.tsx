@@ -7,6 +7,7 @@ import CTA from "@/marketing/sections/cta";
 import FAQ from "@/marketing/sections/faq";
 import Contact from "@/marketing/sections/contact";
 import Lines from "@/marketing/components/lines";
+import Feature from "@/marketing/sections/feature";
 
 export default function Home(): JSX.Element {
   return (
@@ -15,6 +16,7 @@ export default function Home(): JSX.Element {
       <main>
         <Hero />
         <Brands />
+        <Feature />
         <FunFact />
         <CTA />
         <FAQ />

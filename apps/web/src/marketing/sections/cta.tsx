@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import shape6 from "@/assets/shape/shape-06.png";
@@ -59,9 +60,9 @@ function CTA(): JSX.Element {
                 src={shape6}
                 width={299}
               />
-              <a
+              <Link
                 className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white hover:opacity-90 dark:bg-white dark:text-black"
-                href="/auth/signup"
+                href="/signup"
               >
                 Sign up free
                 <Image
@@ -78,7 +79,7 @@ function CTA(): JSX.Element {
                   src={iconArrowLight}
                   width={20}
                 />
-              </a>
+              </Link>
             </div>
           </motion.div>
         </div>
